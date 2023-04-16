@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components';
-import bgIntroMobile from '../images/bg-intro-mobile.png';
+import bgIntroMobile from '/home/luka/Desktop/intro-signup/src/images/bg-intro-mobile.png';
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
  }
  body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('../images/bg-intro-mobile.png');
+    background-image: url(${bgIntroMobile});
     background-repeat: no-repeat;
     background-size: cover;
     background: #FF7979;
