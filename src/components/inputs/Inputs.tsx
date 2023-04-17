@@ -74,6 +74,11 @@ const InPutCont = styled.div`
   margin-top: 24px;
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 border-radius: 10px;
+@media only screen and (min-width: 1440px) {
+ width: 540px;
+ position: absolute;
+ left: 45.938rem;
+}
 `
 const Form = styled.form`
   
@@ -87,7 +92,9 @@ border: ${props => (props.hasError ? '2px solid #FF7979' : '1px solid #DEDEDE')}
 background-image: url(${props => (props.hasError ? errorImage : '')});
 background-repeat: no-repeat;
 background-position: right;
-
+@media only screen and (min-width: 1440px) {
+ width: 460px;
+}
 `
 const ThirdInput = styled.input<ThirdInputProps> `
   height: 56px;
@@ -100,6 +107,9 @@ border: ${props => (props.hasError ? '2px solid #FF7979' : '1px solid #DEDEDE')}
 background-image: url(${props => (props.hasError ? errorImage : '')});
 background-repeat: no-repeat;
 background-position: right;
+@media only screen and (min-width: 1440px) {
+ width: 460px;
+}
 `
 
 const SecondInput = styled.input <SecondInputProps>`
@@ -113,6 +123,11 @@ border: ${props => (props.hasError ? '2px solid #FF7979' : '1px solid #DEDEDE')}
 background-image: url(${props => (props.hasError ? errorImage : '')});
 background-repeat: no-repeat;
 background-position: right;
+
+@media only screen and (min-width: 1440px) {
+ width: 460px;
+
+}
 `
 
 const Btn = styled.button `
@@ -128,7 +143,11 @@ margin-left: 24px;
 margin-top: 16px;
 border: none;
 outline: none;
+
 color: ${DefaultTheme.primery.white};
+@media only screen and (min-width: 1440px) {
+ width: 460px;
+}
 `
 const Agreement = styled.p `
   font-size: 11px;
@@ -139,6 +158,10 @@ margin-left: 39px;
 margin-right: 39px;
 margin-top: 8px;
 margin-bottom: 24px;
+@media only screen and (min-width: 1440px) {
+ width: 367px;
+ margin-left: 86.5px;
+}
 `
 const Higlith = styled.span `
   color: #FF7979;
@@ -166,4 +189,7 @@ border: ${props => (props.hasError ? '2px solid #FF7979' : '1px solid #DEDEDE')}
 background-image: url(${props => (props.hasError ? errorImage : '')});
 background-repeat: no-repeat;
 background-position: right;
+@media only screen and (min-width: 1440px) {
+ width: 460px;
+}
 `

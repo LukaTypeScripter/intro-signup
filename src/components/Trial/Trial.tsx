@@ -18,6 +18,12 @@ background-color: ${DefaultTheme.Accent.Blue};
 margin-left: 24px;
 margin-right: 24px;
 margin-top: 64px;
+@media only screen and (min-width: 1440px) {
+ width: 540px;
+ position: absolute;
+ left: 45.938rem;
+ top: 5rem;
+}
 ` 
 const FreeText = styled.p`
   font-size: 15px;
@@ -28,6 +34,11 @@ margin-top: 18px;
 margin-bottom: 18px;
 width: 194px;
 margin-left: 67px;
+@media only screen and (min-width: 1440px) {
+ width: 316px;
+margin-left: 112px;
+
+}
 `
 const FreeTrial = styled.span`
   color: ${DefaultTheme.primery.white};

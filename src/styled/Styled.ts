@@ -14,9 +14,11 @@ export const GlobalStyle = createGlobalStyle`
  body {
     font-family: 'Poppins', sans-serif;
     background-image: url(${bgIntroMobile});
-    background-repeat: no-repeat;
+   
     background-size: cover;
     background: #FF7979;
+    width: 100vw;
+    height: 100vh;
  }
 `;
 
